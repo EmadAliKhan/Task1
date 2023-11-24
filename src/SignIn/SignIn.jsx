@@ -62,6 +62,7 @@ setIsLoading(true)
 
     } catch (err) {
       console.log(err.code);
+      alert(err.code)
     }
 
   }
@@ -140,7 +141,7 @@ setIsLoading(true)
               </Grid>
             </Box>
           </Box>
-          <Copyright sx={{ mt: 8, mb: 4 }} />
+          {/* <Copyright sx={{ mt: 8, mb: 4 }} /> */}
         </Container>
       </ThemeProvider>
     </>

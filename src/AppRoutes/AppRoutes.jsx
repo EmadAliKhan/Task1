@@ -1,6 +1,5 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import SignIn from '../SignUp/SignIn'
 import SignIn from '../SignIn/SignIn'
 import Dashboard from '../Dashboard/Dashboard'
 const AppRouter = () => {
